@@ -1,0 +1,27 @@
+[
+    {
+
+        "id": 11,
+        "name": "giuseppe",
+        "surname": "tarallo",
+        "email": "giuseppe.lkio@free.it",
+        "telephone": "2345676589",
+        "dayBirth": "28/11/1977"
+    },
+    {
+        "id": 2,
+        "name": "jerry",
+        "surname": "calá",
+        "email": "jerry.calá@free.it",
+        "telephone": "1232145678",
+        "dayBirth": "28/11/1944"
+    },
+    {
+        "id": 3,
+        "name": "pippo",
+        "surname": "fresella",
+        "email": "pippo.fres@free.it",
+        "telephone": "7778865477",
+        "dayBirth": "28/11/1957"
+    }
+]

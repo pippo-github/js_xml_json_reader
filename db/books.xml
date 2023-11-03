@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <title>
+            Le avventure di Pinocchio
+        </title>
+        <author>
+            Carlo Collodi
+        </author>
+        <bookImg>
+                ./xml_img/pinocchio.jpg
+        </bookImg>
+        <ISBN>
+            9780394821108
+        </ISBN>
+        <price>
+            10 &#x20AC;
+        </price>
+    </book>
+    <book>
+        <title>
+            1984
+        </title>
+        <author>
+            George Orwell
+        </author>
+        <bookImg>
+                ./xml_img/1984.jpg
+        </bookImg>
+        <ISBN>
+            9780198185215
+        </ISBN>
+        <price>
+            10 &#x20AC;
+        </price>
+    </book>
+    <book>
+        <title>
+            Alice's Adventures in Wonderland
+        </title>
+        <author>
+            Charles Lutwidge
+        </author>
+        <bookImg>
+                ./xml_img/alice.jpg
+        </bookImg>
+        <ISBN>
+            123456764821108
+        </ISBN>
+        <price>
+            4.50 &#x20AC;
+        </price>
+    </book>
+    <book>
+        <title>
+            Biancaneve E I Sette Nani
+        </title>
+        <author>
+            Jacob e Wilhelm Grimm
+        </author>
+        <bookImg>
+                ./xml_img/biancaneve.jpg
+        </bookImg>
+        <ISBN>
+            123456764821108
+        </ISBN>
+        <price>
+            4.50 &#x20AC;
+        </price>
+    </book>
+    <book>
+        <title>
+            Il pifferaio magico
+        </title>
+        <author>
+            Jacob e Wilhelm Grimm
+        </author>
+        <bookImg>
+            	https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Franz_J%C3%BCttner_Schneewittchen_2.jpg/320px-Franz_J%C3%BCttner_Schneewittchen_2.jpg
+        </bookImg>
+        <ISBN>
+            97803948123432
+        </ISBN>
+        <price>
+            3.50 &#x20AC;
+        </price>
+    </book>
+</books>

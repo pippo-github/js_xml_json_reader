@@ -1,0 +1,90 @@
+body{
+    background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(225, 42, 142),rgb(4, 2, 73));
+    color: #aaa;
+}
+
+p {
+    margin-bottom: -11px;
+    padding-left: 11px;
+    color: rgb(230, 211, 211);
+}
+
+.opPannel{
+    margin: 33px 122px 33px 11px;
+    display: flex;
+    align-items: center;
+}
+
+.opPannel span{
+    margin-right: 11px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.contactBlk{
+    border: solid grey 1px;
+    margin: 11px 7px;
+    padding: 11px;
+    box-shadow:     -1px -1px 2px white, 
+                    1px 1px 5px black;
+    background-color: rgba(225, 25, 5, .1);
+
+    padding: 11px;
+    border-radius: 5px;
+    color: white;
+
+}
+#form_id{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    border-radius: 2px;
+    color: #aaa;
+}
+
+button:hover{
+    border: solid 1px white;
+    cursor: pointer;
+    color: white;
+    transition: all .5s;
+}
+
+#form_id *{
+    box-sizing: border-box;
+    min-height: 45px;
+}
+
+.contactBlk span{
+    display: inline-block;
+    min-width: 88px;
+}
+
+#controlPannel{
+    margin: 22px 0px;
+}
+
+.ctrl_inBox{
+    margin-inline: 5px;
+}
+
+.btn_insert{
+ border: none;
+ background-color: green; 
+}
+
+.btn_delete{
+ border: none;
+ background-color: red;
+}
+
+.btn_show{
+ border: none;
+ background-color: rgb(4, 57, 4);
+ color: lightgreen;
+}

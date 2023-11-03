@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xml - json basic operations</title>
+    <link rel="stylesheet" type="text/css" href="./style/index/style.css">
+</head>
+<body>
+
+    <h1>
+        xml - json basic operations
+    </h1>
+
+    <p>
+        Please select one example below.
+    </p>
+
+    <div id="mainBox">
+        <div class="appBox"> xml example</div>
+        <div class="appBox"> json example</div>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    document.querySelector("div.appBox:nth-child(1)").onclick = () => location.href = './xmlParser.html' 
+    document.querySelector("div.appBox:nth-child(2)").onclick = () => location.href = './jsonHandler.html' 
+</script>

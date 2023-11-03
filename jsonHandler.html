@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js_utilities/json_example/json_reader.js"></script>
+    <script src="./js_utilities/json_example/getSubmitData.js"></script>
+    <script src="./js_utilities/json_example/onChangeHandeling.js"></script>
+    <script src="./js_utilities/json_example/getJsonData.js"></script>
+    <script src="./js_utilities/json_example/loadStartupData.js"></script>
+    <script src="./js_utilities/json_example/loadContens.js"></script>
+    <script src="./js_utilities/json_example/getUserSelection.js"></script>
+    <script src="./js_utilities/json_example/makeControlPannel.js"></script>
+    <script src="./js_utilities/json_example/createControlElement.js"></script>
+    <script src="./js_utilities/json_example/createSelectOption.js"></script>
+    <script src="./js_utilities/json_example/deleteAllCtrls.js"></script>
+    <script src="./js_utilities/json_example/JsonToJSX.js"></script>
+    <script src="./js_utilities/json_example/removeSelOption.js"></script>
+    <script src="./js_utilities/json_example/removeFromArrayJson.js"></script>
+    <script src="./js_utilities/json_example/filterFromArrayJson.js"></script>
+    <!-- <script src="./js_utilities/json_example/updateFromArrayJson.js"></script> -->
+    <script src="./js_utilities/json_example/getUserInput.js"></script>
+    <script src="./js_utilities/json_example/modOptionsVal.js"></script>
+    <script src="./js_utilities/json_example/insertIntoJsonArray.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/json_example/main.css" >
+    <title>JSON handler</title>
+</head>
+<body>
+    <h1>
+        JSON handler
+    </h1>
+    <p>
+        With this example you can carry out the common addition, removal and modification operations on a JSON array of object.
+    </p>
+    <p>
+        The data will be saved to local storage, once deleted completely, the data comes from local file: <b>"contact.json"</b> as default values.
+    </p>
+
+    <p>
+        To run this code you must run it on a web server, otherwise you will receive the CORS error. 
+    </p>
+
+    <div class="opPannel">
+        <span>select an operation</span>
+        <select name="operation" id="operation">
+            <option value="">------</option>
+            <option value="show">show</option>
+            <option value="delete">delete</option>
+            <option value="update">update</option>
+            <option value="insert">insert</option>
+        </select>
+    </div>
+
+    <div id="controlPannel"></div>
+    <div id="mainContainer"></div>
+
+</body>
+</html>
+
+<script>
+    operation.onchange = (event) => getUserSelection(event);
+    document.addEventListener("DOMContentLoaded", async () =>{ startupData(); })
+</script>

@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(45deg, rgb(132, 1, 210) 0%, rgb(132, 1, 210) 10%,rgb(156, 14, 188) 10%, rgb(156, 14, 188) 19%,rgb(180, 27, 165) 19%, rgb(180, 27, 165) 27%,rgb(204, 40, 143) 27%, rgb(204, 40, 143) 34%,rgb(77, 11, 93) 34%, rgb(77, 11, 22) 100%);
+    color: rgb(48, 14, 70);
+}
+
+p{
+    color: #ccc;
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgBox{
+    border: solid orange 3px;
+    background-color: rgb(108, 237, 108);
+    padding: 7px;
+    border-radius: 11px;
+}
+
+.allBlks{
+    border: solid yellow 2px;
+    margin-bottom: 11px;
+    padding: 7px;
+    background-color: rgba(38, 8, 65, .97);
+    border-radius: 5px;
+    animation: zoom 3s ease-in-out forwards;
+    transform: scale(0);
+    opacity: 0;
+}
+
+@keyframes zoom {
+    to{
+        transform: scale(.7);
+    }
+    80%{
+        transform: scale(1);        
+    }
+    90%{
+        transform: scale(.98);        
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+img{
+    border-radius: 5px;
+}
+
+.mainTitle{
+    color: rgb(146, 241, 146);
+    font-size: 2.2rem;
+}
+
+.allBlks h1{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+
+.isbn{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+div.allBlks div:nth-child(2){
+    margin: 11px 2px;
+    color: rgb(229, 164, 42);
+}
+
+div.allBlks div:nth-child(4) > div:nth-child(1){
+    color: rgba(238, 184, 84, 0.8);
+    margin: 11px 2px;
+    font-weight: bold;
+    font-style: italic;
+}
